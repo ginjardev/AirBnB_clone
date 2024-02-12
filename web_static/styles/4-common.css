@@ -1,0 +1,21 @@
+body {
+	min-height: 100vh;
+	margin: 0px;
+	display: grid;
+	grid-template-rows: auto auto 1fr;
+	color: #484848;
+	font-size: 14px;
+	font-family: Circular, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.container {
+	display: grid;
+	max-width: 1000px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+body div {
+	margin: 0 auto;
+}
