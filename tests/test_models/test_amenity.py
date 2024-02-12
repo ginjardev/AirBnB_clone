@@ -2,9 +2,9 @@
 
 """Testcase for Amentity"""
 
-import os
-import models
 import unittest
+import models
+import os
 from datetime import datetime
 from time import sleep
 from models.amenity import Amenity
