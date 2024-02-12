@@ -6,8 +6,8 @@
     and method for other classes
     the is the root of all class
 """
-import uuid
 import datetime
+import uuid
 import models
 
 
