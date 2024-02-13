@@ -23,6 +23,11 @@ class TestUser(unittest.TestCase):
         self.assertTrue(len(User.__doc__) > 2)
         self.assertTrue(len("__main__".__doc__) > 2)
 
+    def setUp(self):
+        """Set up the test environment."""
+        # Create a new instance of User for each test
+        self.user = User()
+
     def tearDown(self):
         """Clean up after the test."""
         # Remove the user instance from storage
@@ -30,11 +35,6 @@ class TestUser(unittest.TestCase):
         hold = storage.all()
         hold.pop(key, None)
         storage.save()
-
-    def setUp(self):
-        """Set up the test environment."""
-        # Create a new instance of User for each test
-        self.user = User()
 
     def test_user_attributes(self):
         user = User()
