@@ -8,10 +8,8 @@
 
 	<style>
 		body {
-			min-height: 100vh;
 			margin: 0px;
-			display: grid;
-			grid-template-rows: 1fr auto 1fr;
+			padding: 0;
 		}
 
 		header {
@@ -23,25 +21,17 @@
 		footer {
 			background-color: #00FF00;
 			height: 60px;
-			display: grid;
-			grid-row: -1/4;
-			grid-template-columns: 1fr auto 1fr;
-			grid-template-rows: 1fr auto 1fr;
-		}
-
-		footer p {
-			grid-column: 2/3;
-			grid-row: 2/3;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: fixed;
+			bottom: 0;
 		}
 	</style>
-
-
-
 </head>
-
 <body>
-	<header>
-	</header>
+	<header></header>
 	<footer>
 		<p>Best School</p>
 	</footer>
