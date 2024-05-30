@@ -2,14 +2,10 @@ footer {
 	background-color: white;
 	height: 60px;
 	width: 100%;
-	border-top: 1px solid #CCCCCC;
-	display: grid;
-	grid-row: -1/4;
-	grid-template-columns: 1fr auto 1fr;
-	grid-template-rows: 1fr auto 1fr;
-}
-
-footer p {
-	grid-column: 2/3;
-	grid-row: 2/3;
+	border-top: 1px solid #CCC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
 }
