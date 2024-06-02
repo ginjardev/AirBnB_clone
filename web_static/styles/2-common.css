@@ -1,6 +1,4 @@
 body {
-	min-height: 100vh;
-	margin: 0px;
-	display: grid;
-	grid-template-rows: 1fr auto 1fr;
+	margin: 0;
+    padding: 0;
 }
